@@ -1,0 +1,10 @@
+services:
+  notepad:
+    build: ./notepad  # Specify the directory where the Dockerfile is located
+    ports:
+      - "5173:5173"  # Map the port from the container to the host
+    volumes:
+      - ./notepad:/app  # Adjust the volume path to match the build context
+      - /app/node_modules
+    environment:
+      - NODE_ENV=production

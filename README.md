@@ -1,2 +1,3 @@
-# daisyui-svelte
-DaisyUI Svelte Template 
+# Sveltkit Notepad
+
+A Sveltekit Notepad
